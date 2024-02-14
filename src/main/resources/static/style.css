@@ -1,0 +1,61 @@
+/* styles.css */
+
+/* Style for the table */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #007bff; /* Bootstrap primary color */
+}
+
+/* Style for table headings */
+th {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style for table rows */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6; /* Bootstrap table border color */
+}
+
+/* Alternate row background color */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+    background-color: #cce5ff; /* Lighter shade of primary color on hover */
+}
+
+/* Add some padding to the container */
+.container {
+    padding: 20px;
+}
+
+/* Center align text in table cells */
+td, th {
+    text-align: center;
+}
+
+/* Button style */
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #0056b3; /* Darker shade of primary color on hover */
+}
+
